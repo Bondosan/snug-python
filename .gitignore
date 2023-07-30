@@ -162,3 +162,4 @@ cython_debug/
 # Specific file names
 *connections.csv
 *output.csv
+*api_data.csv
