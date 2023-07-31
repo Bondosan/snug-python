@@ -17,7 +17,8 @@ class Connection:
         DATABASE={self.database};
         UID={self.user};
         PWD={self.password};
-        Encrypt=no;"""
+        Encrypt=yes;
+        TrustServerCertificate=yes"""
         return pyodbc.connect(connection_string)
 
 
