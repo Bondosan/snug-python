@@ -47,7 +47,7 @@ def get_data_row(user_info):
     street_name = street.get('name')
     city = location.get('city')
     state = location.get('state')
-    zip = location.get('postcode')
+    zip_code = location.get('postcode')
     email = user_info.get('email')
     phone = user_info.get('phone')
 
@@ -59,7 +59,7 @@ def get_data_row(user_info):
         street_name,
         city,
         state,
-        zip,
+        zip_code,
         email,
         phone
     ]
